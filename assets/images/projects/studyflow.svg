@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#D8DEE6"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#1A2230" flood-opacity="0.14"/>
+    </filter>
+    <clipPath id="windowClip">
+      <rect x="100" y="60" width="1000" height="630" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="#EDF0F3"/>
+  <rect width="1200" height="750" fill="url(#dots)"/>
+  <rect x="100" y="60" width="1000" height="630" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <g clip-path="url(#windowClip)">
+    <rect x="100" y="60" width="1000" height="44" fill="#F8F9FA"/>
+    <line x1="100" y1="104" x2="1100" y2="104" stroke="#E7EAEE"/>
+    <circle cx="128" cy="82" r="4" fill="#D7DCE2"/>
+    <circle cx="146" cy="82" r="4" fill="#D7DCE2"/>
+    <circle cx="164" cy="82" r="4" fill="#D7DCE2"/>
+    <rect x="476" y="70" width="248" height="24" rx="6" fill="#FFFFFF" stroke="#E6E9ED"/>
+    <path d="M489 83v-4a3 3 0 0 1 6 0v4" stroke="#A1ABB7" stroke-width="1.3" stroke-linecap="round"/>
+    <rect x="487" y="83" width="10" height="7" rx="1.5" fill="#A1ABB7"/>
+    <text x="600" y="86" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" fill="#9AA3AD">studyflow.app</text>
+
+    <!-- App header -->
+    <rect x="100" y="104" width="1000" height="64" fill="#FFFFFF"/>
+    <line x1="100" y1="168" x2="1100" y2="168" stroke="#E9ECEF"/>
+    <rect x="140" y="123" width="28" height="28" rx="7" fill="#526B8A"/>
+    <path d="M149 134h10M149 139h7M149 144h10" stroke="#FFFFFF" stroke-width="1.7" stroke-linecap="round"/>
+    <text x="178" y="143" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="-0.2" fill="#171717">StudyFlow</text>
+    <text x="330" y="142" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="500" fill="#526B8A">Board</text>
+    <rect x="326" y="153" width="26" height="2" rx="1" fill="#526B8A"/>
+    <text x="381" y="142" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" fill="#8D939B">Calendar</text>
+    <text x="443" y="142" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" fill="#8D939B">Notes</text>
+    <rect x="933" y="123" width="73" height="28" rx="5" fill="#F4F6F8"/>
+    <text x="969" y="141" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" font-weight="500" fill="#6F7680">Week 8</text>
+    <rect x="1024" y="123" width="36" height="28" rx="5" fill="#171719"/>
+    <path d="M1042 131v12M1036 137h12" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+
+    <rect x="100" y="168" width="1000" height="522" fill="#F7F8FA"/>
+
+    <!-- Heading -->
+    <text x="140" y="216" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.7" fill="#171717">My week</text>
+    <text x="140" y="236" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" fill="#848B94">A calm place for coursework, deadlines, and focus.</text>
+    <text x="1060" y="208" text-anchor="end" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" fill="#8D939B">October 12 — 18</text>
+    <rect x="951" y="221" width="109" height="26" rx="5" fill="#FFFFFF" stroke="#E2E6EB"/>
+    <circle cx="966" cy="234" r="4" stroke="#8D939B" stroke-width="1.2"/>
+    <text x="977" y="237" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" fill="#737A84">Today</text>
+
+    <!-- Column backgrounds -->
+    <rect x="140" y="262" width="292" height="392" rx="11" fill="#F0F2F5"/>
+    <rect x="454" y="262" width="292" height="392" rx="11" fill="#F0F2F5"/>
+    <rect x="768" y="262" width="292" height="392" rx="11" fill="#F0F2F5"/>
+
+    <!-- To do header -->
+    <circle cx="160" cy="288" r="4" fill="#8D98A5"/>
+    <text x="174" y="292" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#33383F">To do</text>
+    <rect x="216" y="277" width="22" height="18" rx="4" fill="#E4E8EC"/>
+    <text x="227" y="289" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="600" fill="#707782">3</text>
+    <circle cx="416" cy="286" r="9" stroke="#B7BFC8" stroke-width="1.1"/>
+    <path d="M412 286h8M416 282v8" stroke="#7B828C" stroke-width="1.1" stroke-linecap="round"/>
+
+    <!-- To do cards -->
+    <rect x="152" y="305" width="268" height="96" rx="8" fill="#FFFFFF" stroke="#E4E8ED"/>
+    <rect x="152" y="305" width="3" height="96" rx="1.5" fill="#526B8A"/>
+    <rect x="168" y="318" width="52" height="16" rx="4" fill="#EEF2F7"/>
+    <text x="194" y="329" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" letter-spacing="0.5" fill="#526B8A">COURSEWORK</text>
+    <text x="168" y="353" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#2B2F34">Database chapter review</text>
+    <text x="168" y="368" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#8A9098">Normalization, keys, and joins</text>
+    <circle cx="171" cy="386" r="4" stroke="#B6BEC7" stroke-width="1"/>
+    <text x="181" y="389" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#89909A">Today · 45 min</text>
+    <circle cx="400" cy="386" r="2" fill="#C5CBD2"/>
+    <circle cx="408" cy="386" r="2" fill="#C5CBD2"/>
+    <circle cx="416" cy="386" r="2" fill="#C5CBD2"/>
+
+    <rect x="152" y="413" width="268" height="96" rx="8" fill="#FFFFFF" stroke="#E4E8ED"/>
+    <rect x="168" y="426" width="44" height="16" rx="4" fill="#F3F0EA"/>
+    <text x="190" y="437" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" letter-spacing="0.5" fill="#85755A">PERSONAL</text>
+    <text x="168" y="461" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#2B2F34">Portfolio case study draft</text>
+    <text x="168" y="476" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#8A9098">Write about the build process</text>
+    <circle cx="171" cy="494" r="4" stroke="#B6BEC7" stroke-width="1"/>
+    <text x="181" y="497" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#89909A">Wednesday · 1 hr</text>
+    <circle cx="400" cy="494" r="2" fill="#C5CBD2"/>
+    <circle cx="408" cy="494" r="2" fill="#C5CBD2"/>
+    <circle cx="416" cy="494" r="2" fill="#C5CBD2"/>
+
+    <rect x="152" y="521" width="268" height="96" rx="8" fill="#FFFFFF" stroke="#E4E8ED"/>
+    <rect x="168" y="534" width="46" height="16" rx="4" fill="#EDF3F1"/>
+    <text x="191" y="545" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" letter-spacing="0.5" fill="#507163">LEARNING</text>
+    <text x="168" y="569" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#2B2F34">Read about accessibility</text>
+    <text x="168" y="584" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#8A9098">Focus states, contrast, landmarks</text>
+    <circle cx="171" cy="602" r="4" stroke="#B6BEC7" stroke-width="1"/>
+    <text x="181" y="605" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#89909A">Friday · 30 min</text>
+
+    <text x="286" y="639" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#9AA1AA">+ Add a task</text>
+
+    <!-- In progress -->
+    <circle cx="474" cy="288" r="4" fill="#526B8A"/>
+    <text x="488" y="292" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#33383F">In progress</text>
+    <rect x="548" y="277" width="22" height="18" rx="4" fill="#DCE5EE"/>
+    <text x="559" y="289" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="600" fill="#526B8A">2</text>
+
+    <rect x="466" y="305" width="268" height="106" rx="8" fill="#FFFFFF" stroke="#E4E8ED"/>
+    <rect x="482" y="318" width="44" height="16" rx="4" fill="#EEF2F7"/>
+    <text x="504" y="329" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" letter-spacing="0.5" fill="#526B8A">PRACTICE</text>
+    <text x="482" y="353" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#2B2F34">JavaScript DOM practice</text>
+    <text x="482" y="368" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#8A9098">Events, forms, and small widgets</text>
+    <rect x="482" y="381" width="236" height="4" rx="2" fill="#EDEFF2"/>
+    <rect x="482" y="381" width="142" height="4" rx="2" fill="#526B8A"/>
+    <text x="482" y="398" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#89909A">60% complete</text>
+
+    <rect x="466" y="423" width="268" height="96" rx="8" fill="#FFFFFF" stroke="#E4E8ED"/>
+    <rect x="482" y="436" width="40" height="16" rx="4" fill="#EEF2F7"/>
+    <text x="502" y="447" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" letter-spacing="0.5" fill="#526B8A">DESIGN</text>
+    <text x="482" y="471" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#2B2F34">UI/UX wireframes</text>
+    <text x="482" y="486" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#8A909A">Sketch the study dashboard flow</text>
+    <circle cx="486" cy="504" r="4" stroke="#B6BEC7" stroke-width="1"/>
+    <text x="496" y="507" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#89909A">Thursday · 2 hrs</text>
+
+    <rect x="466" y="531" width="268" height="45" rx="7" fill="#FFFFFF" stroke="#DFE4E9" stroke-dasharray="4 4"/>
+    <text x="600" y="558" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#9AA1AA">+ Add a task</text>
+
+    <!-- Done -->
+    <circle cx="788" cy="288" r="4" fill="#2F8F63"/>
+    <text x="802" y="292" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#33383F">Done</text>
+    <rect x="847" y="277" width="22" height="18" rx="4" fill="#DDEBE4"/>
+    <text x="858" y="289" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="600" fill="#2F8F63">2</text>
+
+    <rect x="780" y="305" width="268" height="96" rx="8" fill="#FFFFFF" stroke="#E4E8ED"/>
+    <circle cx="798" cy="328" r="7" fill="#2F8F63"/>
+    <path d="M795 328l2 2 4-4" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="812" y="332" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#6B717A" text-decoration="line-through">SmartBand proposal</text>
+    <rect x="796" y="345" width="52" height="16" rx="4" fill="#EEF2F7"/>
+    <text x="822" y="356" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" letter-spacing="0.5" fill="#526B8A">ACADEMIC</text>
+    <text x="796" y="378" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#9AA1AA">Completed Monday</text>
+
+    <rect x="780" y="413" width="268" height="96" rx="8" fill="#FFFFFF" stroke="#E4E8ED"/>
+    <circle cx="798" cy="436" r="7" fill="#2F8F63"/>
+    <path d="M795 436l2 2 4-4" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="812" y="440" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#6B717A" text-decoration="line-through">Set up Git &amp; GitHub</text>
+    <rect x="796" y="453" width="46" height="16" rx="4" fill="#EDF3F1"/>
+    <text x="819" y="464" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" letter-spacing="0.5" fill="#507163">LEARNING</text>
+    <text x="796" y="486" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#9AA1AA">Completed Tuesday</text>
+
+    <rect x="780" y="521" width="268" height="96" rx="8" fill="#F4F7F5" stroke="#DDE9E2"/>
+    <text x="798" y="548" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="600" letter-spacing="0.6" fill="#507163">WEEKLY WIN</text>
+    <text x="798" y="570" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#2F5D4A">Five tasks finished.</text>
+    <text x="798" y="585" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#7D9588">Small steps count.</text>
+    <circle cx="1007" cy="558" r="20" stroke="#C9DED2" stroke-width="4"/>
+    <path d="M1007 538a20 20 0 0 1 17.3 10" stroke="#2F8F63" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <rect x="100.5" y="60.5" width="999" height="629" rx="17.5" stroke="#DEE3E8"/>
+</svg>

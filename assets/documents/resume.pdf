@@ -1,0 +1,85 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 3973 >>
+stream
+BT /F1 8.5 Tf 0.322 0.420 0.541 rg 1 0 0 1 54 787 Tm (PORTFOLIO RESUME / PLACEHOLDER) Tj ET
+BT /F1 30 Tf 0.09 0.09 0.09 rg 1 0 0 1 54 744 Tm (Piolo) Tj ET
+BT /F2 11 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 724 Tm (Information Technology Student  |  Aspiring Web Developer) Tj ET
+BT /F2 8.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 709 Tm (piolo@example.com  |  github.com/yourusername  |  facebook.com/yourusername) Tj ET
+q 0.898 0.906 0.914 RG 1 w 54 694 m 541 694 l S Q
+q 0.973 0.976 0.98 rg 0.898 0.906 0.914 RG 0.8 w 54 620 487 58 re B Q
+BT /F1 8 Tf 0.322 0.420 0.541 rg 1 0 0 1 68 660 Tm (PLACEHOLDER DOCUMENT) Tj ET
+BT /F2 10.5 Tf 0.09 0.09 0.09 rg 1 0 0 1 68 644 Tm (Replace this PDF with your final resume before publishing.) Tj ET
+BT /F2 8.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 68 630 Tm (File path: assets/documents/resume.pdf) Tj ET
+BT /F1 9 Tf 0.322 0.420 0.541 rg 1 0 0 1 54 588 Tm (PROFILE) Tj ET
+q 0.898 0.906 0.914 RG 1 w 54 580 m 541 580 l S Q
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 562 Tm (Information Technology student focused on web development, UI/UX fundamentals,) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 548 Tm (and continuous learning. I build responsive, accessible interfaces with HTML, CSS,) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 534 Tm (and vanilla JavaScript.) Tj ET
+BT /F1 9 Tf 0.322 0.420 0.541 rg 1 0 0 1 54 505 Tm (EDUCATION) Tj ET
+q 0.898 0.906 0.914 RG 1 w 54 497 m 541 497 l S Q
+BT /F1 10 Tf 0.09 0.09 0.09 rg 1 0 0 1 54 479 Tm (University Name) Tj ET
+BT /F2 9 Tf 0.45 0.45 0.45 rg 1 0 0 1 220 479 Tm (Bachelor of Science in Information Technology) Tj ET
+BT /F2 8.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 470 479 Tm (2023 - Present) Tj ET
+BT /F1 10 Tf 0.09 0.09 0.09 rg 1 0 0 1 54 457 Tm (Senior High School Name) Tj ET
+BT /F2 9 Tf 0.45 0.45 0.45 rg 1 0 0 1 220 457 Tm (Academic Track) Tj ET
+BT /F2 8.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 470 457 Tm (2021 - 2023) Tj ET
+BT /F1 10 Tf 0.09 0.09 0.09 rg 1 0 0 1 54 435 Tm (Junior High School Name) Tj ET
+BT /F2 9 Tf 0.45 0.45 0.45 rg 1 0 0 1 220 435 Tm (Junior High School) Tj ET
+BT /F2 8.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 470 435 Tm (2017 - 2021) Tj ET
+BT /F1 9 Tf 0.322 0.420 0.541 rg 1 0 0 1 54 406 Tm (TECHNICAL SKILLS) Tj ET
+q 0.898 0.906 0.914 RG 1 w 54 398 m 541 398 l S Q
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 380 Tm (Programming:  C++, Java, JavaScript, PHP) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 364 Tm (Web:  HTML5, CSS3, JavaScript, Responsive Web Design) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 348 Tm (Database:  MySQL) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 332 Tm (Other:  UI/UX Fundamentals, Problem Solving, Basic Networking) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 316 Tm (Software Development Fundamentals) Tj ET
+BT /F1 9 Tf 0.322 0.420 0.541 rg 1 0 0 1 54 287 Tm (SELECTED PROJECTS) Tj ET
+q 0.898 0.906 0.914 RG 1 w 54 279 m 541 279 l S Q
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 261 Tm (SmartBand - Progressive Web App concept for community band coordination) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 245 Tm (Personal Portfolio - Responsive site built with HTML, CSS, and vanilla JavaScript) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 229 Tm (StudyFlow - Study planner concept with local-first data) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 213 Tm (Shelfwise - Java and MySQL library inventory exercise) Tj ET
+BT /F1 9 Tf 0.322 0.420 0.541 rg 1 0 0 1 54 183 Tm (CONTACT) Tj ET
+q 0.898 0.906 0.914 RG 1 w 54 175 m 541 175 l S Q
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 157 Tm (Email: piolo@example.com) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 141 Tm (GitHub: github.com/yourusername) Tj ET
+BT /F2 9.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 125 Tm (Facebook: facebook.com/yourusername) Tj ET
+q 0.898 0.906 0.914 RG 1 w 54 100 m 541 100 l S Q
+BT /F2 8.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 54 82 Tm (Placeholder resume - replace with your final PDF.) Tj ET
+BT /F2 8.5 Tf 0.45 0.45 0.45 rg 1 0 0 1 470 82 Tm (Page 1 of 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Title (Piolo - Resume Placeholder) /Author (Piolo) /Subject (Portfolio resume placeholder) /Creator (Personal Portfolio Template) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000353 00000 n 
+0000000450 00000 n 
+0000004475 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
+startxref
+4627
+%%EOF

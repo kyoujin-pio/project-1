@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#D8DEE6"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#1A2230" flood-opacity="0.14"/>
+    </filter>
+    <clipPath id="windowClip">
+      <rect x="90" y="55" width="1020" height="640" rx="18"/>
+    </clipPath>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(950 180) rotate(120) scale(420)">
+      <stop stop-color="#526B8A" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#526B8A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="#EDF0F3"/>
+  <rect width="1200" height="750" fill="url(#dots)"/>
+
+  <circle cx="106" cy="650" r="86" stroke="#D4DBE3"/>
+  <circle cx="1100" cy="90" r="60" stroke="#D4DBE3"/>
+
+  <rect x="90" y="55" width="1020" height="640" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <g clip-path="url(#windowClip)">
+    <!-- Browser chrome -->
+    <rect x="90" y="55" width="1020" height="44" fill="#F8F9FA"/>
+    <line x1="90" y1="99" x2="1110" y2="99" stroke="#E7EAEE"/>
+    <circle cx="118" cy="77" r="4" fill="#D7DCE2"/>
+    <circle cx="136" cy="77" r="4" fill="#D7DCE2"/>
+    <circle cx="154" cy="77" r="4" fill="#D7DCE2"/>
+    <rect x="470" y="65" width="260" height="24" rx="6" fill="#FFFFFF" stroke="#E6E9ED"/>
+    <path d="M483 78v-4a3 3 0 0 1 6 0v4" stroke="#A1ABB7" stroke-width="1.3" stroke-linecap="round"/>
+    <rect x="481" y="78" width="10" height="7" rx="1.5" fill="#A1ABB7"/>
+    <text x="600" y="81" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" fill="#9AA3AD">piolo.dev/about</text>
+
+    <rect x="90" y="99" width="1020" height="596" fill="#FFFFFF"/>
+    <rect x="90" y="99" width="1020" height="596" fill="url(#glow)"/>
+
+    <!-- Mini site navigation -->
+    <rect x="130" y="122" width="26" height="26" rx="5" fill="#171719"/>
+    <text x="143" y="141" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">P<tspan fill="#9CB5D0">.</tspan></text>
+    <text x="166" y="140" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#171717">Piolo</text>
+
+    <text x="676" y="139" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#8A9098">Home</text>
+    <text x="724" y="139" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#171717">About</text>
+    <text x="777" y="139" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#8A9098">Skills</text>
+    <text x="825" y="139" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#8A9098">Projects</text>
+    <rect x="886" y="123" width="123" height="26" rx="5" fill="#171719"/>
+    <text x="947" y="140" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" font-weight="500" fill="#FFFFFF">Let's talk</text>
+    <line x1="130" y1="171" x2="1070" y2="171" stroke="#F0F1F3"/>
+
+    <!-- About heading -->
+    <circle cx="133" cy="216" r="3" fill="#526B8A"/>
+    <text x="144" y="220" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="600" letter-spacing="1.4" fill="#526B8A">01 · ABOUT ME</text>
+    <text x="130" y="262" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="-1.8" fill="#171717">Curious by nature.</text>
+    <text x="130" y="297" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="-1.8" fill="#171717">Building with purpose.</text>
+
+    <text x="130" y="335" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#6F757D">I'm an Information Technology student who learns best by making things.</text>
+    <text x="130" y="353" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#6F757D">I care about clean design, accessible interfaces, and code that's easy to</text>
+    <text x="130" y="371" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10.5" fill="#6F757D">understand, maintain, and improve.</text>
+
+    <!-- Career objective callout -->
+    <rect x="130" y="400" width="428" height="86" rx="8" fill="#F8F9FA" stroke="#E5E7EB"/>
+    <circle cx="152" cy="423" r="10" fill="#EEF2F7"/>
+    <circle cx="152" cy="423" r="4.5" stroke="#526B8A" stroke-width="1.4"/>
+    <circle cx="152" cy="423" r="1.4" fill="#526B8A"/>
+    <text x="172" y="420" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" font-weight="700" letter-spacing="1" fill="#9AA0A8">CAREER OBJECTIVE</text>
+    <text x="172" y="440" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" fill="#404040">To grow into a web developer who builds useful, accessible</text>
+    <text x="172" y="456" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" fill="#404040">digital experiences — and never stops learning.</text>
+
+    <!-- Fact rows -->
+    <line x1="130" y1="516" x2="558" y2="516" stroke="#E7EAEE"/>
+    <line x1="130" y1="562" x2="558" y2="562" stroke="#E7EAEE"/>
+    <text x="130" y="537" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" font-weight="600" letter-spacing="1" fill="#9AA0A8">PROGRAM</text>
+    <text x="130" y="553" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" font-weight="500" fill="#33363A">BS Information Technology</text>
+    <text x="330" y="537" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" font-weight="600" letter-spacing="1" fill="#9AA0A8">FOCUS</text>
+    <text x="330" y="553" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" font-weight="500" fill="#33363A">Web development &amp; UI/UX</text>
+    <text x="130" y="583" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" font-weight="600" letter-spacing="1" fill="#9AA0A8">OUTSIDE CODE</text>
+    <text x="130" y="599" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" font-weight="500" fill="#33363A">Music &amp; brass band</text>
+    <text x="330" y="583" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" font-weight="600" letter-spacing="1" fill="#9AA0A8">APPROACH</text>
+    <text x="330" y="599" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" font-weight="500" fill="#33363A">Curious &amp; consistent</text>
+
+    <!-- Right profile card -->
+    <rect x="626" y="204" width="386" height="268" rx="12" fill="#F8F9FA" stroke="#E4E8ED"/>
+    <rect x="650" y="228" width="148" height="196" rx="9" fill="#E8EDF2" stroke="#DDE3E9"/>
+    <circle cx="724" cy="300" r="44" fill="#FFFFFF" fill-opacity="0.5"/>
+    <circle cx="724" cy="304" r="28" fill="#B9C8D7"/>
+    <path d="M674 424c3-35 23-56 50-56s47 21 50 56H674Z" fill="#A9BACA"/>
+    <text x="824" y="254" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#171717">Piolo</text>
+    <text x="824" y="273" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" fill="#737373">IT Student &amp; Aspiring Web Developer</text>
+
+    <rect x="824" y="292" width="160" height="1" fill="#E7EAEE"/>
+    <text x="824" y="313" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" font-weight="600" letter-spacing="1" fill="#9AA0A8">CURRENTLY LEARNING</text>
+    <text x="824" y="330" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" fill="#404040">JavaScript &amp; UI/UX fundamentals</text>
+    <text x="824" y="355" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" font-weight="600" letter-spacing="1" fill="#9AA0A8">BASED IN</text>
+    <text x="824" y="372" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" fill="#404040">Philippines</text>
+
+    <rect x="824" y="394" width="106" height="28" rx="5" fill="#171717"/>
+    <text x="877" y="412" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="500" fill="#FFFFFF">Download résumé</text>
+
+    <!-- Skills strip -->
+    <text x="626" y="509" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="700" letter-spacing="1.2" fill="#526B8A">TECHNICAL SKILLS</text>
+
+    <rect x="626" y="524" width="118" height="104" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <circle cx="646" cy="546" r="9" fill="#EEF2F7"/>
+    <path d="m643 546 2 2 4-4" stroke="#526B8A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="642" y="573" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="600" fill="#26262A">Programming</text>
+    <text x="642" y="589" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#858B93">C++ · Java · JS · PHP</text>
+
+    <rect x="758" y="524" width="118" height="104" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <circle cx="778" cy="546" r="9" fill="#EEF2F7"/>
+    <path d="m775 546 2 2 4-4" stroke="#526B8A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="774" y="573" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="600" fill="#26262A">Web</text>
+    <text x="774" y="589" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#858B93">HTML · CSS · Responsive</text>
+
+    <rect x="890" y="524" width="122" height="104" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <circle cx="910" cy="546" r="9" fill="#EEF2F7"/>
+    <path d="m907 546 2 2 4-4" stroke="#526B8A" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="906" y="573" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="600" fill="#26262A">Tools</text>
+    <text x="906" y="589" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#858B93">Git · GitHub · VS Code</text>
+  </g>
+
+  <rect x="90.5" y="55.5" width="1019" height="639" rx="17.5" stroke="#DEE3E8"/>
+</svg>

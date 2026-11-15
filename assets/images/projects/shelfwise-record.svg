@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#D8DEE6"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#1A2230" flood-opacity="0.14"/>
+    </filter>
+    <clipPath id="windowClip">
+      <rect x="100" y="60" width="1000" height="630" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="#EDF0F3"/>
+  <rect width="1200" height="750" fill="url(#dots)"/>
+  <rect x="100" y="60" width="1000" height="630" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <g clip-path="url(#windowClip)">
+    <!-- Browser chrome -->
+    <rect x="100" y="60" width="1000" height="44" fill="#F8F9FA"/>
+    <line x1="100" y1="104" x2="1100" y2="104" stroke="#E7EAEE"/>
+    <circle cx="128" cy="82" r="4" fill="#D7DCE2"/>
+    <circle cx="146" cy="82" r="4" fill="#D7DCE2"/>
+    <circle cx="164" cy="82" r="4" fill="#D7DCE2"/>
+    <rect x="476" y="70" width="248" height="24" rx="6" fill="#FFFFFF" stroke="#E6E9ED"/>
+    <path d="M489 83v-4a3 3 0 0 1 6 0v4" stroke="#A1ABB7" stroke-width="1.3" stroke-linecap="round"/>
+    <rect x="487" y="83" width="10" height="7" rx="1.5" fill="#A1ABB7"/>
+    <text x="600" y="86" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" fill="#9AA3AD">shelfwise.app/books/BK-1042</text>
+
+    <!-- App header -->
+    <rect x="100" y="104" width="1000" height="64" fill="#FFFFFF"/>
+    <line x1="100" y1="168" x2="1100" y2="168" stroke="#E9ECEF"/>
+    <rect x="140" y="122" width="29" height="29" rx="6" fill="#171719"/>
+    <path d="M148 131h9a3 3 0 0 1 3 3v9h-9a3 3 0 0 1-3-3v-9ZM157 143h3" stroke="#FFFFFF" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="179" y="142" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="-0.2" fill="#171717">Shelfwise</text>
+    <text x="333" y="141" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="500" fill="#526B8A">Library</text>
+    <rect x="329" y="152" width="31" height="2" rx="1" fill="#526B8A"/>
+    <text x="393" y="141" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" fill="#8D939B">Loans</text>
+    <text x="447" y="141" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" fill="#8D939B">Members</text>
+    <text x="514" y="141" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" fill="#8D939B">Reports</text>
+    <circle cx="1041" cy="136" r="14" fill="#DCE4EC"/>
+    <text x="1041" y="140" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="600" fill="#405875">LB</text>
+
+    <rect x="100" y="168" width="1000" height="522" fill="#F7F8FA"/>
+
+    <!-- Breadcrumb and title -->
+    <text x="140" y="199" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" fill="#8D939B">Library / Books / BK-1042</text>
+    <text x="140" y="227" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.7" fill="#171717">Book record</text>
+    <rect x="938" y="194" width="122" height="31" rx="5" fill="#FFFFFF" stroke="#E2E6EB"/>
+    <path d="M952 204h8M952 209h8M952 214h5" stroke="#737A84" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="972" y="214" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="500" fill="#404040">Edit record</text>
+
+    <!-- Book detail card -->
+    <rect x="140" y="250" width="540" height="410" rx="11" fill="#FFFFFF" stroke="#E5E9ED"/>
+
+    <rect x="164" y="274" width="86" height="124" rx="6" fill="#EEF2F7" stroke="#DDE4EB"/>
+    <rect x="176" y="288" width="62" height="4" rx="2" fill="#C6D1DC"/>
+    <rect x="176" y="299" width="46" height="4" rx="2" fill="#D8E0E8"/>
+    <rect x="176" y="310" width="54" height="4" rx="2" fill="#D8E0E8"/>
+    <path d="M184 340h14a3 3 0 0 1 3 3v14h-14a3 3 0 0 1-3-3v-14ZM198 357h5" stroke="#526B8A" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="227" y="382" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="600" letter-spacing="0.8" fill="#9AA0A8">BK-1042</text>
+
+    <text x="272" y="290" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="-0.4" fill="#171717">The Pragmatic Programmer</text>
+    <text x="272" y="310" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#737373">Andrew Hunt &amp; David Thomas</text>
+
+    <rect x="272" y="326" width="58" height="20" rx="4" fill="#ECF6F1"/>
+    <text x="301" y="339" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" font-weight="600" fill="#2F7F5D">Available</text>
+    <rect x="338" y="326" width="62" height="20" rx="4" fill="#F3F0EA"/>
+    <text x="369" y="339" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" font-weight="600" fill="#85755A">Programming</text>
+
+    <line x1="272" y1="360" x2="656" y2="360" stroke="#EEF0F3"/>
+    <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8">
+      <text x="272" y="381" fill="#9AA0A8">ISBN</text>
+      <text x="340" y="381" fill="#404040">978-0-201-61622-4</text>
+      <text x="272" y="404" fill="#9AA0A8">Shelf</text>
+      <text x="340" y="404" fill="#404040">CS-03</text>
+      <text x="470" y="381" fill="#9AA0A8">Published</text>
+      <text x="540" y="381" fill="#404040">1999</text>
+      <text x="470" y="404" fill="#9AA0A8">Added</text>
+      <text x="540" y="404" fill="#404040">Jan 2026</text>
+    </g>
+
+    <line x1="164" y1="424" x2="656" y2="424" stroke="#EEF0F3"/>
+    <text x="164" y="448" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="9" font-weight="600" fill="#171717">Loan history</text>
+    <text x="656" y="448" text-anchor="end" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#526B8A">View all →</text>
+
+    <!-- Loan table -->
+    <rect x="164" y="462" width="492" height="26" rx="4" fill="#F8F9FA"/>
+    <text x="178" y="479" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.8" font-weight="600" letter-spacing="0.6" fill="#8D939B">BORROWER</text>
+    <text x="352" y="479" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.8" font-weight="600" letter-spacing="0.6" fill="#8D939B">BORROWED</text>
+    <text x="472" y="479" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.8" font-weight="600" letter-spacing="0.6" fill="#8D939B">RETURNED</text>
+    <text x="588" y="479" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.8" font-weight="600" letter-spacing="0.6" fill="#8D939B">STATUS</text>
+
+    <text x="178" y="507" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="500" fill="#404040">Maria Santos</text>
+    <text x="352" y="507" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#737373">Feb 12, 2026</text>
+    <text x="472" y="507" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#737373">Feb 26, 2026</text>
+    <rect x="588" y="496" width="48" height="16" rx="3" fill="#ECF6F1"/>
+    <text x="612" y="507" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" fill="#2F7F5D">Returned</text>
+    <line x1="164" y1="520" x2="656" y2="520" stroke="#F0F2F4"/>
+
+    <text x="178" y="542" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="500" fill="#404040">James Cruz</text>
+    <text x="352" y="542" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#737373">Jan 08, 2026</text>
+    <text x="472" y="542" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#737373">Jan 22, 2026</text>
+    <rect x="588" y="531" width="48" height="16" rx="3" fill="#ECF6F1"/>
+    <text x="612" y="542" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" fill="#2F7F5D">Returned</text>
+    <line x1="164" y1="555" x2="656" y2="555" stroke="#F0F2F4"/>
+
+    <text x="178" y="577" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="500" fill="#404040">Ana Reyes</text>
+    <text x="352" y="577" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#737373">Nov 03, 2025</text>
+    <text x="472" y="577" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" fill="#737373">Nov 17, 2025</text>
+    <rect x="588" y="566" width="48" height="16" rx="3" fill="#ECF6F1"/>
+    <text x="612" y="577" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" font-weight="600" fill="#2F7F5D">Returned</text>
+
+    <!-- Data model card -->
+    <rect x="700" y="250" width="360" height="410" rx="11" fill="#FFFFFF" stroke="#E5E9ED"/>
+    <text x="722" y="278" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" fill="#171717">Data model</text>
+    <text x="1038" y="278" text-anchor="end" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7.5" fill="#8D939B">MySQL · 3 tables</text>
+    <line x1="700" y1="294" x2="1060" y2="294" stroke="#EEF0F3"/>
+
+    <!-- ER: BOOKS -->
+    <rect x="722" y="314" width="134" height="78" rx="6" fill="#F8F9FA" stroke="#DDE4EB"/>
+    <text x="734" y="332" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="700" letter-spacing="0.5" fill="#405875">BOOKS</text>
+    <text x="734" y="348" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">book_id  ·  PK</text>
+    <text x="734" y="360" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">title  ·  author</text>
+    <text x="734" y="372" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">category  ·  status</text>
+
+    <!-- ER: BORROWERS -->
+    <rect x="904" y="314" width="134" height="78" rx="6" fill="#F8F9FA" stroke="#DDE4EB"/>
+    <text x="916" y="332" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="700" letter-spacing="0.5" fill="#405875">BORROWERS</text>
+    <text x="916" y="348" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">borrower_id  ·  PK</text>
+    <text x="916" y="360" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">name  ·  email</text>
+    <text x="916" y="372" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">contact  ·  joined</text>
+
+    <!-- ER: LOANS -->
+    <rect x="813" y="444" width="134" height="86" rx="6" fill="#EEF2F7" stroke="#C9D6E3"/>
+    <text x="825" y="462" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="8" font-weight="700" letter-spacing="0.5" fill="#405875">LOANS</text>
+    <text x="825" y="478" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">loan_id  ·  PK</text>
+    <text x="825" y="490" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">book_id  ·  FK</text>
+    <text x="825" y="502" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">borrower_id  ·  FK</text>
+    <text x="825" y="514" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="7" fill="#5E6570">dates  ·  status</text>
+
+    <!-- Relationships -->
+    <path d="M789 392v20h91v32" stroke="#9CB0C4" stroke-width="1.2"/>
+    <path d="M971 392v20h-91v32" stroke="#9CB0C4" stroke-width="1.2"/>
+    <circle cx="789" cy="392" r="2.4" fill="#526B8A"/>
+    <circle cx="971" cy="392" r="2.4" fill="#526B8A"/>
+    <text x="852" y="420" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#8D939B">1 : many</text>
+
+    <!-- Query snippet -->
+    <rect x="722" y="558" width="316" height="76" rx="6" fill="#1F2732"/>
+    <text x="736" y="576" font-family="Consolas, 'Courier New', monospace" font-size="7" fill="#9CB5D0">SELECT b.title, l.due_date</text>
+    <text x="736" y="589" font-family="Consolas, 'Courier New', monospace" font-size="7" fill="#D6DFE8">FROM loans l</text>
+    <text x="736" y="602" font-family="Consolas, 'Courier New', monospace" font-size="7" fill="#D6DFE8">JOIN books b ON b.book_id = l.book_id</text>
+    <text x="736" y="615" font-family="Consolas, 'Courier New', monospace" font-size="7" fill="#D6DFE8">WHERE l.status = 'open';</text>
+  </g>
+
+  <rect x="100.5" y="60.5" width="999" height="629" rx="17.5" stroke="#DEE3E8"/>
+</svg>

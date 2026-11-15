@@ -1,0 +1,8 @@
+# Temporary build and local tooling files
+.build/
+node_modules/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
