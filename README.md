@@ -4,6 +4,7 @@
 
 **Live Site:** `https://kyoujin-pio.github.io/project-1/`  
 **Author:** Mark Piolo A. Morente  
+**Phone:** 09678493459  
 **Email:** morentemarkypiolo@gmail.com  
 **LinkedIn:** [linkedin.com/in/mark-piolo-morente](https://linkedin.com/in/mark-piolo-morente)
 
